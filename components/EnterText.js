@@ -19,7 +19,7 @@ export default class EnterText extends Component {
                             borderWidth: 1}}
                     onChangeText={(text) => {this.props.onChange(text); this.changeText(text);}}
                     value={this.state.text}
-                    placeholder = 'Text sht here!'
+                    placeholder = 'Text something here!'
                 />
         );
     }
